@@ -1,60 +1,52 @@
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-html,body{
-  height: 100%;
-  width: 100%;
+h3{
+  color: rgb(57, 46, 187);
 }
-body {
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
-  margin: 0;
-  padding: 20px;
-}
-
-.container {
-  max-width: 500px;
-  margin: auto;
-  background: #fff;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-h1 {
-  text-align: center;
-}
-
-form {
+.tasklist{
   display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
+  width:52rem;
+  justify-content: center;
+  align-items: center;
+  flex: wrap;
+  gap: 2rem;
+  background-color: aliceblue;
+  border: 2px solid rgb(123, 122, 122);
+  border-radius: 1rem;
 }
-
-input, button {
-  padding: 10px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
+.add-btn{
+  margin: 1rem;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 10px;
+  border-radius: 2rem;
+  border-style: none;
+  background: linear-gradient(rgb(128, 141, 219),rgb(124, 75, 216));
+  
 }
-
-button {
-  background-color: #007bff;
-  color: white;
+body{
+  background-color: pink;
+}
+h1{
+  text-align: center;
+  color: aliceblue;
+}
+.task-name{
+  margin-left: 35%;
+  padding: 0.5%;
   border: none;
-  cursor: pointer;
+  border-radius: 6px;
 }
-
-ul {
-  list-style: none;
-  padding: 0;
+#task-progress{
+  padding: 0.5%;
+  border: none;
+  border-radius: 6px;
 }
-
-li {
-  background: #e9e9e9;
-  margin: 10px 0;
-  padding: 10px;
-  border-radius: 4px;
+.submit-button{
+  padding: 0.5%;
+  border: none;
+  border-radius: 6px;
+  background-color: lightseagreen;
+  color: aliceblue;
 }
-
