@@ -9,23 +9,26 @@
   <body>
     <div class="container">
       <h1>Task Progress Tracker</h1>
-      <form id="task-form">
-        <input
-          type="text"
-          id="task-name"
-          placeholder="Enter task name"
-          required
-        />
-        <input
-          type="number"
-          id="task-progress"
-          placeholder="Progress %"
-          min="0"
-          max="100"
-          required
-        />
-        <button type="submit">Add / Update Task</button>
-      </form>
+      <div class="form">
+        <form id="task-form">
+          <input
+            type="text"
+            id="task-name"
+            placeholder="Enter task name"
+            required
+          />
+          <input
+            type="number"
+            id="task-progress"
+            placeholder="Progress %"
+            min="0"
+            max="100"
+            required
+          />
+          <button type="submit">Add / Update Task</button>
+        </form>
+      </div>
+      
       <ul id="task-list"></ul>
     </div>
     <script src="script.js"></script>
